@@ -63,6 +63,9 @@ void setup() {
     if(Serial) break;
     delay(1000);
   }
+  
+  // Initialize dht sensor
+  dht.begin();
 }
 
 void loop() {
